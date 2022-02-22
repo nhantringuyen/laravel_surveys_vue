@@ -1,0 +1,13 @@
+composer global require "laravel/installer
+laravel new laravel-vue-survey
+php artisan serve
+php artisan migrate
+npm init vite vue
+cd vue
+npm i && npm run dev
+npm install vuex@next --save
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npm install @headlessui/vue @heroicons/vue @tailwindcss/forms -S
+npm run dev
+npm i -S vue-router@next
