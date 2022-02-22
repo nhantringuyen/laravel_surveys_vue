@@ -4,8 +4,9 @@ import { createStore } from "vuex";
 const store = createStore({
   state: {
     user: {
-      data: {name: 'Zura'},
-      token: null,
+      // data: {name: 'Zura'},
+      data: {},
+      token: '123',
     },
     // dashboard: {
     //   loading: false,
