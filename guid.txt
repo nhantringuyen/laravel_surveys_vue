@@ -11,3 +11,11 @@ npx tailwindcss init -p
 npm install @headlessui/vue @heroicons/vue @tailwindcss/forms -S
 npm run dev
 npm i -S vue-router@next
+
+//laravel
+php artisan make:model Survey -m
+php artisan make:model SurveyQuestion -m
+php artisan make:model SurveyAnswer -m
+php artisan make:model SurveyQuestionAnswer -m
+//vue
+npm i -S axios
